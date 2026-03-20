@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5 # This is the corrected line
+        uses: actions/setup-python@v5 # THIS LINE IS NOW CORRECT
         with:
           python-version: '3.9'
 
